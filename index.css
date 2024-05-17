@@ -4,11 +4,11 @@
   font-family: Arial, sans-serif;
 }
 body {
-  background-color: #130e1e;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #130e1e;
 }
 .container {
   background: #4b007d;
@@ -50,17 +50,17 @@ body {
   background-color: #3700b3;
 }
 .guest-item {
-  background-color: #6a1b9a;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
+  background-color: #6a1b9a;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 .guest-item span {
-  flex: 1;
+  flex-grow: 1;
 }
 .guest-item button {
   background-color: #6200ea;
