@@ -9,7 +9,7 @@ document.getElementById("addButton").addEventListener("click", function () {
       guestItem.className = "guest-item";
   
       var guestInfo = document.createElement("span");
-      guestInfo.textContent = `Nome: ${name} - Data: ${date} - Horário: ${time}`;
+      guestInfo.textContent = `Nome: ${name}, Data: ${date}, Horário: ${time}`;
       guestItem.append(guestInfo);
   
       var removeButton = document.createElement("button");
