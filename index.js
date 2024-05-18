@@ -32,5 +32,5 @@ document.getElementById("addButton").addEventListener("click", function () {
     } else {
       alert("Por favor, preencha todos os campos.");
     }
-  });
+});
   
